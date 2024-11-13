@@ -1,0 +1,15 @@
+.doseDiaria{
+    max-width: 96rem;
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+
+    .description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #3B3C3D;
+    margin-bottom: 50px;
+    }
+}

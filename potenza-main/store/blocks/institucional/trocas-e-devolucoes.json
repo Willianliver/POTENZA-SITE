@@ -1,0 +1,35 @@
+{
+  "store.custom#trocas-e-devolucoes": {
+    "blocks": ["flex-layout.row#trocas-e-devolucoes"]
+  },
+  "flex-layout.row#trocas-e-devolucoes": {
+    "props": {
+      "blockClass": "institucional"
+    },
+    "children": ["flex-layout.col#text-trocas-e-devolucoes"]
+  },
+
+  "flex-layout.col#text-trocas-e-devolucoes": {
+    "children": [
+      "rich-text#title-trocas-e-devolucoes",
+      "rich-text#trocas-e-devolucoes"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-trocas-e-devolucoes": {
+    "props": {
+      "text": "# TROCAS E DEVOLUÇÕES",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#trocas-e-devolucoes": {
+    "props": {
+      "text": "## Sobre trocas por arrependimento ou insatisfação: \n Você tem até 7 dias corridos, a partir da data de recebimento do produto, para solicitar a troca por arrependimento ou insatisfação. \n O produto deve estar em sua embalagem original, sem indícios de uso, acompanhado de todos os acessórios e manuais. \n  Entre em contato conosco pelo e-mail potenzabrazil@gmail.com informando:  \n -Nome completo; \n -Número do pedido; \n -Motivo da troca. \n ## Troca por Defeito ou Problema no Produto: \n Caso o produto apresente algum defeito de fabricação ou problema dentro do prazo de garantia, solicitamos que nos envie fotos detalhadas do defeito por e-mail para potenzabrazil@gmail.com. \n Iremos analisar o caso e, se confirmado o defeito, providenciaremos a troca do produto sem custos adicionais. \n Retornaremos em contato novamente pelo mesmo e-mail ou número de contato fornecido no site. ##Procedimento para Troca ou Devolução: \n Para solicitar a troca ou devolução, entre em contato conosco pelo e-mail potenzabrazil@gmail.com. \n Informe: \n -Nome completo; \n -Número do pedido; \n -Motivo da solicitação; \n -Anexe fotos do produto (em caso de defeito). \n Após recebermos sua solicitação, entraremos em contato pelo mesmo e-mail ou número de contato fornecido no site para fornecer as instruções específicas sobre como proceder com a troca ou devolução. \n ## Observações Importantes: \n A Potenza reserva-se o direito de recusar a troca ou devolução de produtos que não atendam às condições estabelecidas nesta política. \n Os custos de frete para devolução do produto são de responsabilidade do cliente, exceto em casos de defeito comprovado. \n Para evitar problemas, recomendamos que você verifique todas as especificações do produto antes de finalizar sua compra, ou, nos consulte através de um dos nossos canais, e-mail ou WhatsApp. \n Estamos à disposição para esclarecer qualquer dúvida adicional que você possa ter sobre nossa política de troca e devolução. Nosso objetivo é garantir que sua experiência de compra seja sempre positiva e satisfatória. \n Nossos canais: \n e-mail : potenzabrazil@gmail.com  \n WhatsApp : (16) 99990 0100",
+      "blockClass": "about"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.vtex-menu-2-x-menuContainer--toplink {
+    align-items: center;
+}
+
+.vtex-rich-text-0-x-paragraph--toplink {
+    margin: 5px;
+    font-family: 'Montserrat' !important;
+}
+.vtex-rich-text-0-x-paragraph--toplink:hover {
+    text-decoration: underline;
+}
+
+.vtex-rich-text-0-x-link--toplink {
+    /* UI Properties */
+    text-decoration: none;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--preto);
+    text-align: left;
+    font: normal normal normal 16px/14px Montserrat !important;
+    font-family: 'Montserrat' !important;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+}
+
+.vtex-rich-text-0-x-link--toplink:hover {
+    /* UI Properties */
+    /* text-decoration: var(--unnamed-decoration-underline); */
+    /* letter-spacing: var(--unnamed-character-spacing-0); */
+    /* color: var(--principal); */
+   /*  text-align: center; */
+    text-decoration: underline;
+    /* letter-spacing: 0px; */
+    /* color: #170D65; */
+    /* opacity: 1; */
+
+}
+
+.vtex-menu-2-x-menuContainerNav--toplink img {
+    margin-right: 10px;
+}
+.vtex-menu-2-x-menuContainerNav--toplink p{
+    margin-right: 25px;
+}
+.vtex-menu-2-x-menuContainerNav--toplink ul >div:last-of-type p{
+    margin-right: 0px;
+}
+
+
+.vtex-sticky-layout-0-x-container--sticky-header.fixed {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header-mobile>div>div {
+    line-height: 0;
+  }

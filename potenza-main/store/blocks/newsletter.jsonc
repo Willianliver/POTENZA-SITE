@@ -1,0 +1,84 @@
+{
+    "newsletter-form": {
+        "props": {
+            "blockClass": "newsletter"
+        },
+        "children": [
+            "flex-layout.row#news-texts",
+            "flex-layout.row#news-inputs"
+        ]
+    },
+    "flex-layout.row#news-texts": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": false,
+            "horizontalAlign" : "center"
+        },
+        "children": [
+            "flex-layout.col#news-texts"
+        ]
+    },
+    "flex-layout.col#news-texts": {
+        "children": [
+            "rich-text#newsletter-header",
+            "rich-text#newsletter-text"
+        ]
+    },
+    "flex-layout.row#news-inputs": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": false,
+            "horizontalAlign" : "center"
+        },
+        "children": [
+            "flex-layout.col#news-inputs"
+        ]
+    },
+    "flex-layout.col#news-inputs": {
+        "props" : {
+            "blockClass": "newsletter-inputs"
+        },
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "text",
+            "placeholderText": "Seu e-mail"
+        }
+    },
+    "newsletter-input-name": {
+        "props": {
+            "blockClass": "text",
+            "placeholderText": "Seu nome"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "blockClass": "text",
+            "submitButtonLabel": "Assinar"
+        }
+    },
+    "rich-text#newsletter-header": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-2",
+            "text": "NOVIDADES POTENZA"
+        }
+    },
+    "rich-text#newsletter-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-emphasis",
+            "blockClass": "text",
+            "text": "Assine nossa newsletter e receba ofertas e novidades seu e-mail"
+        }
+    }
+}

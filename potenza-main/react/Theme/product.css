@@ -1,0 +1,102 @@
+.vtex-flex-layout-0-x-flexRowContent--description {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroupDefault {
+    padding: 0 1rem;
+}
+
+.vtex-product-specifications-1-x-groupName {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1A1A1A;
+
+}
+
+.vtex-flex-layout-0-x-flexColChild--productSpecificationName,
+.vtex-store-components-3-x-productDescriptionText {
+    color: var(--preto);
+    text-align: left;
+    color: #3B3C3D;
+    line-height: 2em;
+}
+
+.vtex-product-context-provider .vtex-product-price-1-x-sellingPrice{
+    color: #333333;
+    font-weight: 700;
+    font-size: 30px;
+    /* margin-top: 10px; */
+}
+
+.vtex-product-quantity-1-x-quantitySelectorTitle{
+    display: block;
+}
+
+.vtex-address-form__postalCode .vtex-input__suffix {
+    background-color: #F4F4F6;
+    border: 1px solid #EAEAEA;
+    border-left: none;
+}
+.vtex-address-form__postalCode .vtex-address-form-4-x-input {
+    background-color: #F4F4F6 !important; 
+    border: 1px solid #EAEAEA;
+    border-right: none;
+}
+
+
+.vtex-product-context-provider .vtex-flex-layout-0-x-flexRow--buy-button .vtex-button{
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    font-size: 12px;
+    font-weight: 700;
+    border-color: #1A1A1A;
+    height: 49px;
+}
+
+.vtex-store-components-3-x-shippingContainer .vtex-button {
+    background-color: #1A1A1A;
+    border-color: #1A1A1A;
+}
+
+.vtex-address-form__postalCode {
+    padding-bottom: 10px;
+}
+
+.vtex-address-form__postalCode .vtex-input__label {
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.vtex-address-form__postalCode .vtex-input__label::before{
+    content: "SEU";
+    margin-right: 5px;
+}
+
+.vtex-flex-layout-0-x-flexCol--product-right-col{
+    padding-bottom: 50px;
+}
+
+.vtex-store-components-3-x-shippingContainer {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    [data-testid="thumbnail-swiper"]{
+        display: block;
+        position: static;   
+        order: 2;
+        width: auto !important;
+    }
+    .vtex-store-components-3-x-productImagesContainer .vtex-store-components-3-x-carouselContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;   
+    }
+    .swiper-slide.vtex-store-components-3-x-productImagesThumb  {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+.quantitySelectorTitle{
+    color: #3B3C3D;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.quantitySelectorContainer {
+    margin-top: 30px;
+}

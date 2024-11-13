@@ -1,0 +1,32 @@
+{
+  "store.custom#sobre-nos": {
+    "blocks": ["flex-layout.row#sobre-nos"]
+  },
+  "flex-layout.row#sobre-nos": {
+    "props": {
+      "blockClass": "institucional"
+    },
+    "children": ["flex-layout.col#text-sobre-nos"]
+  },
+
+  "flex-layout.col#text-sobre-nos": {
+    "children": ["rich-text#title-sobre-nos", "rich-text#sobre-nos"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-sobre-nos": {
+    "props": {
+      "text": "# QUEM SOMOS",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#sobre-nos": {
+    "props": {
+      "text": "A **Potenza** é uma marca Brasileira de cosméticos, suplementos e nutrição, criada com o objetivo de descomplicar e otimizar a rotina de cuidados com a saúde em geral. \n\n Todos os produtos foram desenvolvidos em laboratório com tecnologia de ponta. \n Localizada em Franca-SP-Brasil, com logística ágil em todo território nacional e vários países. \n\n Garantimos um produto de qualidade que vai além de suas expectativas, sempre atingindo os melhores resultados. \n A transparência é um dos nossos principais valores, por isso fazemos questão de que você conheça cada detalhe de nossas fórmulas e como cada ativo/componentes age a seu favor!  \n Se cuidar é um ato de amor com você mesmo! \n Prezamos por atendimento humanizado, sem robôs, sem promessas falsas. \n\n A qualidade, honestidade e empatia são valores inegociáveis aqui dentro da Potenza, e é por isso que temos tantos clientes satisfeitos. \n\n Se é Potenza você confia!",
+      "blockClass": "about"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.productBanner{
+    margin: 0 auto;
+}
+
+
+.productBanner img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.productBanner img.mobile{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .productBanner img{
+        width: 100%;
+    }
+    .productBanner img.desktop{
+        display: none;
+    }
+    .productBanner img.mobile{
+        display: initial;
+    }
+}

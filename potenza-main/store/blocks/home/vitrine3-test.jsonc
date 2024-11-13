@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#vitrine3-title": {
+        "props": {
+            "marginTop": 6
+        },
+        "children": [
+            "rich-text#shelf-title3"
+        ]
+    },
+    "rich-text#shelf-title3": {
+        "props": {
+            "text": "## **Ofertas exclusivas**",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#vitrine3": {
+        "props": {
+            "marginBottom" : 8
+        },
+        "children": [
+            "list-context.product-list#vitrine3"
+        ]
+    },
+    "list-context.product-list#vitrine3": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#vitrine3"
+        ],
+        "props": {
+            "collection": "148",
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#vitrine3": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf"
+        }
+    }
+}

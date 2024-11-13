@@ -1,0 +1,20 @@
+/* FOOTER */
+.headingLevel3--footerTitle, .headingLevel3--address {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1A1A1A;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.headingLevel3--address{
+  opacity: 0;
+  pointer-events: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) .paragraph{
+  color: #424244;
+  margin: 0;
+  font-size: 14px;
+  font-family: Montserrat;
+}

@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#middle": {
+    "children": [
+       "image#banner-middle"
+    ]
+  },
+  "image#banner-middle": {
+      "props": {
+          "src": "assets/middlebanner.png",
+          "width" : "100%"
+          // "maxWidth": 100
+      }
+  }
+}

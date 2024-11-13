@@ -1,0 +1,21 @@
+.swiperBullet {
+    background-color: #A79C9C;
+    opacity: 1;
+  }
+  
+.productDescriptionTitle {
+    color: #1A1A1A;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+.content {
+    font-size: 12px;
+}
+
+.swiperBullet--active {
+background-color: #7C0000;
+}

@@ -1,0 +1,35 @@
+section.tabsContentSection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.tabsContentContainer{
+    max-width: 96rem;
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.tabsContent{
+    
+}
+
+.tabsContent h2{
+    color: #1a1b1b;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 400;
+
+}
+.tabsContent p{
+    font-size: 14px;
+    color: #0f0f0f;
+    line-height: 2em;
+}
+.tabsContent pre{
+    font-weight: 400;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

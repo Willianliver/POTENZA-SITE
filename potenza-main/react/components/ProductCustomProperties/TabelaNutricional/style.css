@@ -1,0 +1,33 @@
+.tabelaNutricional{
+
+    .title{
+        font-size: 21px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1A1A1A;
+        max-width: 96rem;
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .imgWrapper{
+        padding: 10px 0;
+    }
+
+    .imgContainer{
+        max-width: 96rem;
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+        margin: 0 auto;
+    }
+    .imgContainer img{
+        margin: 0 auto;
+        display: block;
+        height: auto;
+        max-width: 100%;
+        width: 560px;
+    }
+}

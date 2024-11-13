@@ -1,0 +1,12 @@
+.infoCardContainer--info-card-home{
+    max-width: 100%;
+    justify-content: right;
+}
+
+@media(min-width: 993px){
+    .infoCardContainer--info-card-home .infoCardImageContainer{
+        width: auto!important;
+        max-width: 50%;
+        line-height: 0;
+    }
+}

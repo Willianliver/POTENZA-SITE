@@ -1,0 +1,52 @@
+.doseDiaria{
+    max-width: 96rem;
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+    .title{
+        font-size: 21px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1A1A1A;
+    }
+    
+    .description{
+        font-size: 12px;
+        font-weight: 400;
+        color: #0f0f0f;
+        margin-bottom: 50px;
+    }
+    .description1{
+        font-size: 15px;
+        font-weight: 400;
+        color: #0074e9;
+        margin-bottom: 50px;
+    }
+    
+    ul.items{
+        padding: 0;
+    }
+    
+    li.item{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+
+    }
+    img.itemImg{
+        width: 65px;
+        height: 65px;
+        object-fit: contain;
+        object-position: center;
+    }
+    p.itemText{
+        font-weight: 700;
+        font-size: 16px;
+        color: #A79C9C;
+    }
+}

@@ -1,0 +1,37 @@
+section.tabsSection{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 49%, rgba(90,90,90,1) 50%, rgba(255,255,255,1) 51%);
+    margin-bottom: 60px;
+}
+
+.tabsContainer{
+    max-width: 96rem;
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+@media (max-width: 768px){
+    .tabs{
+        flex-direction: column;
+    } 
+}
+
+.tab{
+    max-width: 100%;  
+    width: 100px;  
+    height: 100px;
+    cursor: pointer;
+}
+.tab img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}

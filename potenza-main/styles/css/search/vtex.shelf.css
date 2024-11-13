@@ -1,0 +1,6 @@
+.sliderContainer {
+    margin-bottom: 80px;
+}
+.dot--isActive {
+    background-color: #7B0000;
+}

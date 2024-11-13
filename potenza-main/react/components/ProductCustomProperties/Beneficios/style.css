@@ -1,0 +1,58 @@
+.beneficios{
+    max-width: 96rem;
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+    .title{
+        font-size: 21px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1A1A1A;
+        margin: 30px 0;
+    }
+    
+    .description{
+        font-size: 14px;
+        font-weight: 400;
+        color: #0f0f0f;;
+        margin-bottom: 50px;
+    }
+    
+    
+    ul.items{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    li.item{
+        list-style: none;
+    }
+    img.itemImg{
+       height: auto;
+       max-width: 100%;
+       width: 308px;
+    }
+    p.itemText{
+        font-weight: 700;
+        font-size: 16px;
+        color: #A79C9C;
+    }
+}
+
+.productBanner{
+    margin: 0 auto;
+}
+
+.productBanner img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}

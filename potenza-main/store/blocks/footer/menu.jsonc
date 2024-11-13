@@ -1,0 +1,331 @@
+{
+  "vtex.menu@2.x:menu#account": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#dados", "menu-item#pedidos"]
+  },
+  "menu-item#dados": {
+    "props": {
+      "id": "menu-item-dados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/profile",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Meus Dados"
+      }
+    }
+  },
+  "menu-item#pedidos": {
+    "props": {
+      "id": "menu-item-black-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Meus Pedidos"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre-nos",
+      "menu-item#garantia",
+      "menu-item#info",
+      "menu-item#termos-e-condicoes"
+      // "menu-item#privacidade",
+      // "menu-item#trocas"
+    ]
+  },
+  "menu-item#sobre-nos": {
+    "props": {
+      "id": "menu-item-sobre-nos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        // "href": "/#",
+        "href": "/institucional/sobre-nos",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Quem Somos"
+      }
+    }
+  },
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-garantia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        // "href": "/institucional/duvidas-frequentes",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Dúvidas Frequentes"
+      }
+    }
+  },
+  "menu-item#info": {
+    "props": {
+      "id": "menu-item-info",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        // "href": "/#",
+        "href": "/institucional/trocas-e-devolucoes",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+  "menu-item#privacidade": {
+    "props": {
+      "id": "menu-item-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        // "href": "/institucional/politica-de-frete",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Política de Frete"
+      }
+    }
+  },
+  "menu-item#trocas": {
+    "props": {
+      "id": "menu-item-trocas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        // "href": "/#",
+        "href": "/institucional/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#termos-e-condicoes": {
+    "props": {
+      "id": "menu-item-termos-e-condicoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        // "href": "/institucional/termos-e-condicoes",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "Termos e Condições"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#institucional2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#privacidade",
+      "menu-item#politica-qualidade",
+      "menu-item#trocas"
+      // "menu-item#garantia",
+    ]
+  },
+  "menu-item#politica-qualidade": {
+    "props": {
+      "id": "menu-item-politica-qualidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        // "href": "/institucional/politica-de-qualidade",
+        "noFollow": false,
+        "tagTitle": "",
+      "text": "Política de Qualidade"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#atendimento": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      // "menu-item#fale-conosco",
+      "menu-item#tel-1",
+      "menu-item#tel-2",
+      "menu-item#fale-conosco"
+      // "menu-item#email"
+    ]
+  },
+
+  "menu-item#fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        // "href": "/institucional/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "FALE CONOSCO"
+      }
+    }
+  },
+  "menu-item#tel-1": {
+    "props": {
+      "id": "menu-item-tel-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "tel:+551149686022",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "(12) 3456-7899"
+      }
+    }
+  },
+  "menu-item#tel-2": {
+    "props": {
+      "id": "menu-item-tel-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "tel:+551149686050",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "(12) 3456-7899"
+      }
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-email",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "mailto:sac@shopjm.com.br",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "sac@shopjm.com.br"
+      },
+      "blockClass": "mail"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  }
+}
