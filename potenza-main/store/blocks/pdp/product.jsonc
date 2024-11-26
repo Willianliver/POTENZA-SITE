@@ -14,7 +14,7 @@
       /* "product-specification-custom", */
       /* "product-specification-group#default", */
       "product-custom-properties",
-      /* "product-reviews", */
+      "product-reviews",
       "shelf.relatedProducts",
       "product-questions-and-answers"
     ]
@@ -142,20 +142,21 @@
     "children": [
       "flex-layout.row#product-name",
       "flex-layout.row#product-tags",
-      // "product-rating-summary",
+      "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
       // "product-separator",
-      // "product-identifier.product#custom",
+      "product-identifier.product#custom",
       "sku-selector",
+      "flex-layout.row#shipping-simulator",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
-      "shipping-simulator"
-      // "share#default"
+      
+      "availability-subscriber"
+      //"share#default"
     ]
   },
   "flex-layout.row#product-tags":{
@@ -166,19 +167,27 @@
       "product-tags"
     ]
   },
-  // "product-identifier.product#custom": {
-  //   "props": {
-  //     "label": "custom", //'default' | 'custom' | 'hide'
-  //     "customLabel": "Ref", // text if label is custom
-  //     "idField": "skuEan" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
-  //   }
-  // },
+   "product-identifier.product#custom": {
+    "props": {
+       "label": "custom", //'default' | 'custom' | 'hide'
+       "customLabel": "SKU", // text if label is custom
+      "idField": "skuReferenceId" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
+    }
+   },
   "product-rating-summary": {
     "props": {
       "showCount": true,
       "showStars": true,
       "showLabel": false,
       "blockClass": "product-rating-summary"
+    }
+  },
+  "product-reviews":{
+    "props": {
+      "showCount": true,
+      "showStars": true,
+      "showLabel": true,
+      "blockClass": "product-reviews"
     }
   },
   "flex-layout.row#product-name": {
@@ -195,6 +204,14 @@
       "showValueNameForImageVariation": true
     }
   },
+  "flex-layout.row#shipping-simulator": {
+    "props": {
+      "blockClass" : "shipping-simulator",
+      "pricingMode": "grouped",  
+      "skuID": "82"
+    }
+    
+  },
   "flex-layout.row#buy-button": {
     "props": {
       "blockClass": "buy-button",
@@ -205,6 +222,9 @@
       "add-to-cart-button"
     ]
   },
+ 
+
+
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,

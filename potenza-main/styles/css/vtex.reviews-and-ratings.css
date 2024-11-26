@@ -25,11 +25,16 @@
 
 
 .writeReviewButton {
-  color: #170D65;
+  color: #2E2E2E;
   text-decoration: underline;
+  text-decoration-color: #2E2E2E;
   font-weight: 900;
 }
-
+.reviewsHeading{
+  text-decoration: #2E2E2E;
+  color: #2E2E2E;
+}
 .reviewsOrderBy {
   color: #9A9A9A;
 }
+

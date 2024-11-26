@@ -5,7 +5,7 @@
 }
 
 .flexRowContent--menu-link{
-  justify-content: end;
+  justify-content: center;
 }
 
 @media screen and (min-width: 80rem) {

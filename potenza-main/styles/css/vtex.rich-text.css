@@ -45,7 +45,7 @@
   max-width: 540px;
   margin: 0 16px;
   padding-top: 120px;
-  color: #03034E;
+  color: #2E2E2E;
 }
 
 .container--question .strong {
@@ -59,7 +59,7 @@
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #2E2E2E;
 }
 
 .container--link .strong {
@@ -72,11 +72,11 @@
   text-decoration: none;
   font-size: 36px;
   font-weight: 300;
-  color: #03034E;
+  color: #2E2E2E;
 }
 
 .container--title {
-  color: #03034E;
+  color: #2E2E2E;
   font-size: 28px;
   font-weight: 700;
 }
@@ -92,7 +92,7 @@
   }
 
   .container--title {
-    color: #03034E;
+    color: #2E2E2E;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;

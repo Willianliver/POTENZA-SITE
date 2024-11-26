@@ -19,7 +19,15 @@
         },
         "children": [
             "list-context.product-list#vitrine3"
+            
         ]
+    },
+    "product-rating-summary":{
+    "props": {
+      "showCount": true,
+      "showStars": true,
+      "showLabel": true  
+        }
     },
     "list-context.product-list#vitrine3": {
         "blocks": [
