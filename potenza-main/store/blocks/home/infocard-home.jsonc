@@ -1,17 +1,19 @@
 {
-    "info-card#home": {
+    "info-card#cosmeticos": {
         "props": {
             "id": "info-card-home",
             "isFullModeStyle": false,
-            "textPosition": "left",
-            "imageUrl": "assets/infocard.png",
+            "textPosition": "center",
+            "imageUrl": "assets/GOMAS DE CREATINA.png",
             "textMode" : "rich-text",
-            "headline": "## Confira nosso **Outlet**",
-            "subhead" : "Acesse promoções exclusivas com os melhores preços para os melhores produtos. Não perca essa oportunidade!",
-            "callToActionText": "Clique e confira",
+            "headline": "#### Um novo jeito de consumir creatina",
+            "subhead" : "Conheça a nova creatina em gomas",
+            "callToActionText": "Saiba mais",
             "callToActionUrl": "/sale/d",
-            "blockClass": "info-card-home",
-            "textAlignment": "left"
+            "blockClass": "info-card-cosmeticos",
+            "textAlignment": "center"
+
         }
     }
+
 }

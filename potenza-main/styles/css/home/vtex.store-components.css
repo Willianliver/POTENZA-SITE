@@ -1,12 +1,46 @@
-.infoCardContainer--info-card-home{
+.infoCardContainer--info-card-cosmeticos{
     max-width: 100%;
-    justify-content: right;
+    justify-content: center;
+    
 }
 
 @media(min-width: 993px){
-    .infoCardContainer--info-card-home .infoCardImageContainer{
+    .infoCardContainer--info-card-cosmeticos.infoCardImageContainer{
         width: auto!important;
-        max-width: 50%;
+        max-width: 30%;
         line-height: 0;
+        display: flex;
+
     }
 }
+
+
+
+
+.infoCardContainer{
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+.infoCardContainer--info-card-cosmeticos{
+    background-color: #ffffff;
+   
+  }
+
+/*.infoCardCallActionContainer--info-card-cosmeticos{
+    background-color: black;
+}
+*/
+
+  /* mudar a cor dos botões*/
+ .infoCardCallActionContainer :global(.vtex-button) {
+    background-color: #1a1a1a;
+    border: transparent;
+  }
+  /* mudar a cor dos botões ao passar o mouse*/
+  .infoCardCallActionContainer :global(.vtex-button):hover {
+    color: gray;
+    background-color: #1a1a1a;
+    border: transparent;
+  }

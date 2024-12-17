@@ -15,8 +15,7 @@
   margin-top: .5rem;
   margin-bottom: .5rem;
 }
-
-.layoutContainer--shelf {
+.youtContainer--shelf {
   margin-top: 20px;
   margin-bottom: 20px;
   max-width: 96rem;
@@ -31,7 +30,8 @@
 }
 
 
-.imageElement--carousel {
+/*.imageElement--carousel {
   /* object-fit: cover; */
-  /* max-width: unset; */
+  /* max-width: unset; 
 }
+*/
