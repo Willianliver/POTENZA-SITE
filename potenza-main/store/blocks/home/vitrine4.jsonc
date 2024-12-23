@@ -1,39 +1,47 @@
 {
-    "flex-layout.row#vitrine2-title": {
+    "flex-layout.row#vitrine4-title": {
         "props": {
             "marginTop": 6
         },
         "children": [
-            "rich-text#shelf-title2"
+            "rich-text#shelf-title4"
         ]
     },
-    "rich-text#shelf-title2": {
+    "rich-text#shelf-title4": {
         "props": {
-            "text": "##**Joias de vanguarda**",
+            "text": "## **Joias**",
             "blockClass": "shelfTitle"
         }
     },
-    "flex-layout.row#vitrine2": {
+    "flex-layout.row#vitrine4": {
         "props": {
             "marginBottom" : 8
         },
         "children": [
-            "list-context.product-list#vitrine2"
+            "list-context.product-list#vitrine4"
+            
         ]
     },
-    "list-context.product-list#vitrine2": {
+    "product-rating-summary":{
+    "props": {
+      "showCount": true,
+      "showStars": true,
+      "showLabel": true  
+        }
+    },
+    "list-context.product-list#vitrine4": {
         "blocks": [
             "product-summary.shelf"
         ],
         "children": [
-            "slider-layout#vitrine2"
+            "slider-layout#vitrine4"
         ],
         "props": {
-            "collection": "149",
+            "collection": "156",
             "orderBy": "OrderByTopSaleDESC"
         }
     },
-    "slider-layout#vitrine2": {
+    "slider-layout#vitrine4": {
         "props": {
             "itemsPerPage": {
                 "desktop": 4,

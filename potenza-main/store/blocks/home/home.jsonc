@@ -7,6 +7,8 @@
       "list-context.image-list#carousel-home",
       "flex-layout.row#deals",
       "__fold__",
+      "flex-layout.row#vitrine4-title",
+      "flex-layout.row#vitrine4",
       "flex-layout.row#vitrine1-title",
       "flex-layout.row#vitrine1",
       "info-card#cosmeticos",
@@ -15,6 +17,7 @@
       "flex-layout.row#viitrine3",
       "flex-layout.row#vitrine3-title",
       "flex-layout.row#vitrine3"
+      
       
           
       // "flex-layout.row#vitrine2-title",
