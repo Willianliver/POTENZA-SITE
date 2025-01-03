@@ -8,6 +8,10 @@
   "MenuMobileVinci": {
     "component": "MenuMobileVinciWrapper"
   },
+  "hello-world": {
+      "component": "HelloWorld"
+    },
+
   "CustomFooter": {
     "component": "CustomFooterWrapper"
   },
