@@ -16,5 +16,5 @@
     "./**/*.ts",
     "components/MenuDesktopVinci/index.js",
     "Theme.js"
-  ]
+, "components/HelloWorld/index.js"  ]
 }
