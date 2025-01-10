@@ -1,8 +1,10 @@
 .carouselContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .highlightsWrapper {
@@ -10,6 +12,15 @@
   gap: 10px;
   overflow: hidden;
   width: 100%;
+  justify-content: center; /* Adicionado para centralizar os itens */
+  width: fit-content; /* Ajusta para o conteúdo real */
+  margin: auto; /* Centraliza no eixo horizontal */
+}
+
+.highlightCircle:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efeito visual */
+  transform: scale(1.1); /* Aumenta ligeiramente o círculo */
+  transition: all 0.3s ease; /* Suaviza a transição */
 }
 
 .highlightItem {

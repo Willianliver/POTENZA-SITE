@@ -7,15 +7,14 @@ const CustomHighlights = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const categoryImages = {
-    Cosméticos: 'https://potenza.vtexassets.com/assets/vtex.file-manager-graphql/images/4628a06b-d0af-4ff8-a447-1fa67db1e9b7___a312caab6d0daa7d94044024e703c2a0.png',
+    Cosméticos: 'https://tfdjho.vtexassets.com/arquivos/ids/160308',
     Suplementos: '/path/to/suplementos.png',
     Nutrição: '/path/to/nutricao.png',
     Joias: '/path/to/joias.png',
   };
 
-  const itemsPerPage = isMobile ? 4 : categories.length; // Mobile: 2 itens; Desktop: mostra tudo.
+  const itemsPerPage = isMobile ? 4 : categories.length;
 
-  // Atualiza o estado `isMobile` com base no tamanho da tela.
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     handleResize();
@@ -23,22 +22,21 @@ const CustomHighlights = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Busca as subcategorias da categoria "Potenza".
   useEffect(() => {
     axios
       .get('/api/catalog_system/pub/category/tree/4')
       .then((response) => {
-        const categoryData = response.data.find((item) => item.name === 'Potenza')
-        setCategories(categoryData.children)
+        const categoryData = response.data.find((item) => item.name === 'Potenza');
+        if (categoryData && categoryData.children) {
+          setCategories(categoryData.children);
+        }
       })
-  }, [])
+      .catch((error) => {
+        console.error('Erro ao buscar categorias:', error);
+      });
+  }, []);
 
-  // Adiciona categorias duplicadas para o efeito infinito no mobile.
-  const infiniteCategories = isMobile
-    ? [...categories, ...categories]
-    : categories;
-
-  // Define a posição inicial do carrossel.
+  const infiniteCategories = isMobile ? [...categories, ...categories] : categories;
   const [startIndex, setStartIndex] = useState(0);
 
   const nextSlide = () => {
@@ -57,7 +55,6 @@ const CustomHighlights = () => {
     );
   };
 
-  // Obtém as categorias visíveis no carrossel (apenas no mobile).
   const visibleCategories = infiniteCategories.slice(
     startIndex,
     startIndex + itemsPerPage
@@ -65,7 +62,6 @@ const CustomHighlights = () => {
 
   return (
     <div className={styles.carouselContainer}>
-      {/* Setas aparecem SOMENTE no mobile */}
       {isMobile && (
         <button className={styles.navButton} onClick={prevSlide}>
           ◀
@@ -74,17 +70,16 @@ const CustomHighlights = () => {
       <div className={styles.highlightsWrapper}>
         {(isMobile ? visibleCategories : categories).map((category, index) => (
           <div key={index} className={styles.highlightItem}>
-            <div className={styles.highlightCircle}>
+            <a href={category.url} className={styles.highlightCircle}>
               <img
                 src={categoryImages[category.name] || '/path/to/default.png'}
                 alt={category.name}
               />
-            </div>
+            </a>
             <span className={styles.highlightTitle}>{category.name}</span>
           </div>
         ))}
       </div>
-      {/* Setas aparecem SOMENTE no mobile */}
       {isMobile && (
         <button className={styles.navButton} onClick={nextSlide}>
           ▶
