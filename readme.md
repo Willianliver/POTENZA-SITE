@@ -1,3 +1,6 @@
+(13/01/2025) - Aprimorei o layout e trabalhei na responsividade das categorias,mudei o ícone de transição, efetuei testes para ver se as categorias estavam sendo direcionadas corretamente, versão pronta para ser publicada.
+
+
 (04/01/2025)- Fazendo o Get das categorias para os destaques, puxando nome e link da categoria
 - Adicionando o modelo responsivo onde para dispositivos mobiles é criado um carrossel para visualizar todas as categorias.
 -Modelo de rolagem infinita com uma seta para rolar para o lado
