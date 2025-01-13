@@ -1,3 +1,6 @@
+Adições da versão 0.0.26
+ -Bolinhas de categorias inspiradas nos destques do instagram
+
 (13/01/2025) - Aprimorei o layout e trabalhei na responsividade das categorias,mudei o ícone de transição, efetuei testes para ver se as categorias estavam sendo direcionadas corretamente, versão pronta para ser publicada.
 
 
