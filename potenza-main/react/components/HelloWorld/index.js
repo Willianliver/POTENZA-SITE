@@ -14,8 +14,9 @@ const CustomHighlights = () => {
     Cosméticos: 'https://tfdjho.vtexassets.com/arquivos/ids/160323',
     Suplementos: 'https://tfdjho.vtexassets.com/arquivos/ids/160324',
     Nutrição: 'https://tfdjho.vtexassets.com/arquivos/ids/160325',
-    Joias: 'https://tfdjho.vtexassets.com/arquivos/ids/160326',
-  };
+    "Joias": 'https://tfdjho.vtexassets.com/arquivos/ids/160326',
+    "Florais de bach": 'https://tfdjho.vtexassets.com/arquivos/ids/160621',
+    }
 
   const itemsPerPage = isMobile ? 3 : categories.length;
 
