@@ -1,7 +1,7 @@
 {
   "vendor": "potenza",
   "name": "potenza",
-  "version": "0.0.28",
+  "version": "0.0.28.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

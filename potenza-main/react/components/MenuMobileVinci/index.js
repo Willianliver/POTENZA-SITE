@@ -25,14 +25,22 @@ export default function MenuMobileVinci() {
 
   useEffect(() => {
     axios
-      .get('/api/catalog_system/pub/category/tree/4')
-      .then(function (response) {
-        // response.data.shift();
-        // setCategories(response.data);
-        const categories = response.data.find((item) => item.name === 'Potenza')
-        setCategories(categories.children)
-      })
-  }, [])
+    .get('/api/catalog_system/pub/category/tree/4')
+    .then((response) => {
+      const categories = response.data.find((item) => item.name === 'Potenza');
+      if (categories && categories.children) {
+        const modifiedChildren = categories.children.map((child) => ({
+          ...child,
+          url: child.url.replace(/^https?:\/\/[^/]+/, ''), // Remove domínio da URL
+        }));
+
+        setCategories(modifiedChildren);
+      }
+    })
+    .catch((error) => {
+      console.error('Ops! Parece que algo não ocorreu como esperado:', error);
+    });
+}, []);
 
   if (canUseDOM) {
     return (
